@@ -27,5 +27,12 @@
         android:layout_gravity="center"
         android:text="CROP IMAGE" />
 
+    <Button
+        android:id="@+id/saveImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SAVE IMAGE" />
+
 
 </LinearLayout>
