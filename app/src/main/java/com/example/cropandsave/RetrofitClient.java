@@ -1,7 +1,6 @@
-package com.example.sharedocument;
+package com.example.cropandsave;
 
 import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.jackson.JacksonConverterFactory;
 
 public class RetrofitClient {

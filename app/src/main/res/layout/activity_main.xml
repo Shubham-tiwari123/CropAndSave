@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="580dp"
+        android:layout_height="550dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,16 +24,14 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
+        android:gravity="center"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/camera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CAMERA"
-            android:layout_marginLeft="100dp"
-            tools:layout_editor_absoluteX="89dp"
-            tools:layout_editor_absoluteY="452dp" />
+            android:text="CAMERA" />
 
         <Button
             android:id="@+id/gallery"
@@ -41,18 +39,33 @@
             android:layout_height="wrap_content"
             android:text="GALLERY"
             android:layout_marginLeft="20dp"
-            tools:layout_editor_absoluteX="228dp"
-            tools:layout_editor_absoluteY="448dp" />
+            android:layout_marginStart="20dp" />
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NEXT"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/saveGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Gallery"
+            />
+
+        <Button
+            android:id="@+id/saveServer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Server"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+    </LinearLayout>
 
 
 </LinearLayout>

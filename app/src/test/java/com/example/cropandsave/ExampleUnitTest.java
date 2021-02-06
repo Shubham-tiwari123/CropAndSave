@@ -1,4 +1,4 @@
-package com.example.sharedocument;
+package com.example.cropandsave;
 
 import org.junit.Test;
 
