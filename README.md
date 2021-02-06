@@ -23,23 +23,13 @@ This is a simple Android Application which provides functions like image crop an
 
 ## Implemented Functions
 
-**1. captureImageCamera:**
-        
-    This function capture the image from camera and display it in ImageView
+**1. captureImageCamera:** This function capture the image from camera and display it in ImageView
 
-**2. captureImageGallery:**
+**2. captureImageGallery:** This function pick image from the gallery and display it in ImageView
 
-    This function pick image from the gallery and display it in ImageView
+**3. cropImage:** This function crops the image taken from camera or from gallery
 
-**3. cropImage:**
+**4. saveImageGallery:** This function store the image into the phone gallery
 
-    This function crops the image taken from camera or from gallery
-
-**4. saveImageGallery:**
-
-    This function store the image into the phone gallery
-
-**5. saveImageServer:**
-
-    This function store the image on the server
+**5. saveImageServer:** This function store the image on the server
 
