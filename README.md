@@ -8,9 +8,13 @@ This is a simple Android Application which provides functions like image crop an
 
 ## Run project
 - Pull the repository from Github
-- Setup tomcat for Servlet
+- Use **main** branch for android and **server** branch for running server
+- Setup tomcat for server
 - Create a folder to store image in server
 - Start the tomcat server
+- Run the android on emulator or on physical device
+- Keep the laptop and andoid phone connected to save internet connection
+- Change the **BASE_URL** in **RetrofitClient** according to your **ip-address** of the server
 
 ## Libraries used
 - Crop Image Library: 
