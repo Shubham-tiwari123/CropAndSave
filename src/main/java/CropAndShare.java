@@ -14,6 +14,8 @@ import java.io.*;
 @WebServlet(name = "CropAndShare", urlPatterns = {"/uploadImage"})
 public class CropAndShare extends HttpServlet {
 
+    String uploadDestination = "/home/shubham/demo/";
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response){
         try {
             System.out.println("Servlet Hit!!!");
@@ -31,7 +33,7 @@ public class CropAndShare extends HttpServlet {
                 out.close();
                 byte[] data = out.toByteArray();
                 System.out.println("data:"+fp1.getFileName()+":"+fp1.getContentType());
-                writeBytesToFile("/home/shubham/demo/"+fp1.getFileName(), data);
+                writeBytesToFile(uploadDestination+fp1.getFileName(), data);
             }
 
             JSONObject jsonObject = new JSONObject();
